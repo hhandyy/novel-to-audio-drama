@@ -1,0 +1,20 @@
+{
+  "llm": {
+    "novel_to_script": { 
+      "api_key": "",
+      "base_url": "",
+      "model": ""
+    },
+    "character_profile": {
+      "api_key": "",
+      "base_url": "",
+      "model": ""
+    }
+  },
+  "minimax": {
+    "voice_design": {
+      "url": "https://api.minimaxi.com/v1/voice_design",
+      "api_token": 
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# pyproject.toml
+[project]
+name = "novel-to-audio-drama"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pydub", 
+    "openai", 
+    "requests>=2.32.5",
+    "charset-normalizer>=3.4.4",
+    "streamlit>=1.51.0",
+]
+
+[tool.uv]
+index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
