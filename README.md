@@ -12,8 +12,8 @@
 ### 2. 下载依赖库
 克隆本仓库：
 ```bash
-git clone https://github.com/hhandyy/novel-to-audio-drama.git
-cd novel-to-audio-drama
+git clone https://github.com/hhandyy/AINovelCast.git
+cd AINovelCast
 uv sync
 ```
 

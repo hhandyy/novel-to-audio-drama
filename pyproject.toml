@@ -11,5 +11,5 @@ dependencies = [
     "streamlit>=1.51.0",
 ]
 
-[tool.uv]
-index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+# [tool.uv]
+# index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
