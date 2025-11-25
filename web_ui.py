@@ -176,7 +176,7 @@ with tab2:
                     st.download_button(
                         label="⬇️ 下载 ZIP 包",
                         data=zip_buffer.getvalue(),
-                        file_name=f"{selected_novel}_ch_{start_ch}_to_{end_ch}.zip",
+                        file_name=f"{selected_novel}_{start_ch}_to_{end_ch}.zip",
                         mime="application/zip"
                     )
             else:
