@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from charset_normalizer import from_path
 from typing import List, Optional
-from . import NOVELS_DIR
+from . import NOVELS_DIR,VOICE_DIR
 
 def read_text_robustly(file_path: Path) -> str:
     """
@@ -102,7 +102,7 @@ def init_novel(
     if not role_to_voice_path.exists():
         # 注意：确保该 WAV 文件确实存在！
         default_mapping = {
-            "旁白": "/root/novel-to-audio-drama/data/people_voice/默认旁白.wav"
+            "旁白": str(VOICE_DIR / "默认旁白.wav")
         }
         with open(role_to_voice_path, "w", encoding="utf-8") as f:
             json.dump(default_mapping, f, ensure_ascii=False, indent=2)

@@ -13,8 +13,8 @@ from src import (
 )
 
 # 页面配置
-st.set_page_config(page_title="Narrative AI - 有声小说生成器", layout="wide")
-st.title("🎙️ Narrative AI - 有声小说生成器 (V1)")
+st.set_page_config(page_title="AINovelCast - 有声小说生成器", layout="wide")
+st.title("🎙️ AINovelCast - 有声小说生成器 (V1)")
 
 # ========== 左侧边栏：小说 & 章节选择 ==========
 with st.sidebar:
